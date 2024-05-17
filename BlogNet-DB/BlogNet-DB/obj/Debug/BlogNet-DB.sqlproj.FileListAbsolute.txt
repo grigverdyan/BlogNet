@@ -1,0 +1,10 @@
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-DB\BlogNet-DB\bin\Debug\BlogNet-DB.dacpac
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-DB\BlogNet-DB\obj\Debug\BlogNet-DB.sqlproj.AssemblyReference.cache
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-DB\BlogNet-DB\obj\Debug\BlogNet_DB.dll
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-DB\BlogNet-DB\obj\Debug\BlogNet_DB.pdb
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-DB\BlogNet-DB\bin\Debug\BlogNet_DB.dll
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-DB\BlogNet-DB\bin\Debug\BlogNet_DB.pdb
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-DB\BlogNet-DB\obj\Debug\Model.xml
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-DB\BlogNet-DB\obj\Debug\refactor.xml
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-DB\BlogNet-DB\obj\Debug\postdeploy.sql
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-DB\BlogNet-DB\obj\Debug\predeploy.sql

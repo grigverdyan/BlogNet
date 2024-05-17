@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Users]
+(
+	[UserID] INT IDENTITY (1, 1) NOT NULL PRIMARY KEY,
+	[Username] NVARCHAR(50) NOT NULL,
+	[Email] NVARCHAR(50) NOT NULL,
+	[Password] NVARCHAR(50) NOT NULL,
+	[RegistrationDate] DATETIME NOT NULL DEFAULT GETDATE(),
+	[PhotoUrl] varchar(2048)
+);

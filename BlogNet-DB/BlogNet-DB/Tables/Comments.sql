@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Comments]
+(
+	[CommentID] INT IDENTITY (1, 1) NOT NULL PRIMARY KEY,
+	[PostID] INT REFERENCES Posts([PostID]),
+	[UserID] INT REFERENCES Users([UserID]),
+	[Content] NVARCHAR(MAX) NOT NULL,
+	[CommentDate] DATETIME NOT NULL DEFAULT GETDATE()
+);
