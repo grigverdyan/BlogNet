@@ -1,0 +1,20 @@
+﻿@page "/fetchusers"
+
+<PageTitle>Users</PageTitle>
+
+<h1>Users</h1>
+
+<MudTable Items="@users" Hover="true" Breakpoint="Breakpoint.Sm" LoadingProgressColor="Color.Info">
+    <HeaderContent>
+        <MudTh>UserName</MudTh>
+        <MudTh>Email</MudTh>
+        <MudTh>RegistrationDate</MudTh>
+        <MudTh>Photo</MudTh>
+    </HeaderContent>
+    <RowTemplate>
+        <MudTd DataLabel="Name">@context.UserName</MudTd>
+        <MudTd DataLabel="Email">@context.Email</MudTd>
+        <MudTd DataLabel="University">@context.RegistrationDate</MudTd>
+        <MudTd DataLabel="PhotoUrl">@context.PhotoUrl</MudTd>
+    </RowTemplate>
+</MudTable>

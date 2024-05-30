@@ -1,0 +1,32 @@
+﻿@page "/registeruser"
+
+@using System.Text.RegularExpressions
+@using System.ComponentModel.DataAnnotations
+@using BlogNet_UI.Models
+@using BlogNet_UI.Pages
+
+<PageTitle>RegisterUsers</PageTitle>
+
+<MudGrid>
+    <MudItem xs="12" sm="7">
+        <MudPaper Class="pa-4">
+            <EditForm Model="user" OnValidSubmit="submit">
+                <MudTextField @bind-Value="user.UserName" Label="UserName" Required="true" RequiredError="User's UserName is required!" />
+                <MudTextField @bind-Value="user.Email" T="string" Label="Email" Required="true" RequiredError="Email is required!" />
+                <MudPaper Class="pa-4 mt-4">
+                    <MudButton Variant="Variant.Filled" Color="Color.Primary" DisableElevation="true" ButtonType="ButtonType.Submit">Submit</MudButton>
+                </MudPaper>
+            </EditForm>
+            <MudFileUpload T="IBrowserFile" FilesChanged="UploadFilesAsync">
+                <ButtonTemplate>
+                    <MudFab HtmlTag="label"
+                            Color="Color.Secondary"
+                            Icon="@Icons.Material.Filled.Image"
+                            Label="Load picture"
+                            for="@context.Id" />
+                </ButtonTemplate>
+            </MudFileUpload>
+            <MudTextField @bind-Value="ErrorMessage"></MudTextField>
+        </MudPaper>
+    </MudItem>
+</MudGrid>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BlogNet-DAL.props" />
+</Project>

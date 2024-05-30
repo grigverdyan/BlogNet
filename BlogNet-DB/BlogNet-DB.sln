@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogNet-DAL", "..\BlogNet-D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogNet-API", "..\BlogNet-API\BlogNet-API.csproj", "{7EB5BB82-522A-43CD-A6EC-602D90E62E53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogNet-UI", "..\BlogNet-UI\BlogNet-UI.csproj", "{7D1A5176-F534-46D6-90E9-1D118D5AF9D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{7EB5BB82-522A-43CD-A6EC-602D90E62E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EB5BB82-522A-43CD-A6EC-602D90E62E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EB5BB82-522A-43CD-A6EC-602D90E62E53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D1A5176-F534-46D6-90E9-1D118D5AF9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D1A5176-F534-46D6-90E9-1D118D5AF9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D1A5176-F534-46D6-90E9-1D118D5AF9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D1A5176-F534-46D6-90E9-1D118D5AF9D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

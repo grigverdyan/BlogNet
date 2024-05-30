@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "WLGhsQ5a/ViKSyEgvw1Mn3WmaVGVjVsGNdPrtfL1Iz4=",
+  "Source": "BlogNet-API",
+  "BasePath": "_content/BlogNet-API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Grigori\\Desktop\\Projects\\BlogNet\\BlogNet-DAL\\BlogNet-DAL\\BlogNet-DAL.csproj",
+      "Version": 2,
+      "Source": "BlogNet-DAL",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

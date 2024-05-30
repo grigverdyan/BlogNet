@@ -1,0 +1,24 @@
+﻿@page "/createpost"
+
+@using System.Text.RegularExpressions
+@using System.ComponentModel.DataAnnotations
+@using BlogNet_UI.Models
+@using BlogNet_UI.Pages
+
+<PageTitle>Create Post</PageTitle>
+
+<MudGrid>
+    <MudItem xs="12" sm="7">
+        <MudPaper Class="pa-4">
+            <EditForm Model="post" OnValidSubmit="SubmitPost">
+                <MudTextField @bind-Value="post.Title" Label="Title" Required="true" RequiredError="Post title is required!" />
+                <MudTextField @bind-Value="post.Content" Label="Content" Required="true" RequiredError="Post content is required!" TextArea="true" Rows="10" />
+                <MudPaper Class="pa-4 mt-4">
+                    <MudButton Variant="Variant.Filled" Color="Color.Primary" DisableElevation="true" ButtonType="ButtonType.Submit">Submit</MudButton>
+                </MudPaper>
+            </EditForm>
+            <MudTextField @bind-Value="ErrorMessage" Label="Error Message" Disabled="true" FullWidth="true"></MudTextField>
+        </MudPaper>
+    </MudItem>
+</MudGrid>
+

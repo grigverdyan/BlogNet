@@ -1,0 +1,9 @@
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-UI\obj\Debug\net7.0\BlogNet-UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-UI\obj\Debug\net7.0\BlogNet-UI.AssemblyInfoInputs.cache
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-UI\obj\Debug\net7.0\BlogNet-UI.AssemblyInfo.cs
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-UI\obj\Debug\net7.0\BlogNet-UI.csproj.CoreCompileInputs.cache
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-UI\obj\Debug\net7.0\BlogNet-UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-UI\obj\Debug\net7.0\BlogNet-UI.RazorAssemblyInfo.cache
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-UI\obj\Debug\net7.0\BlogNet-UI.RazorAssemblyInfo.cs
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-UI\obj\Debug\net7.0\BlogNet-UI.sourcelink.json
+C:\Users\Grigori\Desktop\Projects\BlogNet\BlogNet-UI\obj\Debug\net7.0\BlogNet-UI.csproj.AssemblyReference.cache
